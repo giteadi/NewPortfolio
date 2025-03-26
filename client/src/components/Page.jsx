@@ -86,7 +86,7 @@ export default function Home() {
             className="md:hidden bg-white"
           >
             <div className="px-4 py-2 space-y-1">
-              {["home", "services", "about", "contact"].map((item) => (
+              {["home", "services", "about", "contact","projects"].map((item) => (
                 <a
                   key={item}
                   href={`#${item}`}
