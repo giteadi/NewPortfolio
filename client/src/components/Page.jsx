@@ -48,7 +48,7 @@ export default function Home() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {["home", "services", "about", "contact, ", "projects"].map((item) => (
+            {["home", "services", "about", "contact","projects"].map((item) => (
               <a
                 key={item}
                 href={`#${item}`}
