@@ -3,6 +3,7 @@ import Page from './components/Page'
 import Contact from './components/Contact';
 import Services from './components/Services';
 import About from './components/About';
+import Projects from './components/Projects';
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
    
         </Routes>
     </div>
